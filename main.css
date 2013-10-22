@@ -72,18 +72,15 @@
   background-position-x: -859px;
 }
 #speisekarte .rotated-peak{
-  width: 60px;
-  height: 60px;
-  background-color: #586D12;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 70px solid #586D12;
   position: absolute;
-  transform:rotate(45deg);
-  -ms-transform:rotate(45deg); /* IE 9 */
-  -webkit-transform:rotate(45deg); /* Safari and Chrome */
   left: 50%;
-  margin-left: -30px;
-  margin-top: 10px;
+  margin-left: -120px;
 }
-
 
 #big-phrase{
   background-color: #FDEFBE;
@@ -199,6 +196,17 @@
   background-position-y: -2835px;
 }
 
+#menu-download .rotated-peak{
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 70px solid #586D12;
+  position: absolute;
+  left: 50%;
+  margin-left: -120px;
+  margin-top: -30px;
+}
 
 
 
