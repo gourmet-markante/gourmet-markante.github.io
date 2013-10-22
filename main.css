@@ -191,12 +191,11 @@
 
 
 #kontakt{
-  height:615px;
+  height:565px;
 }
 
 #kontakt .row{
   height:90px;
-  border:1px solid black;
 }
 #kontakt #kontakt-headline{
   height:inherit;
@@ -241,4 +240,45 @@
  color:#586D12;
  font-size: 26px;
  padding-top: 20px
+}
+
+#footer{
+  height:165px;
+  background-color: #586D12; 
+  position: relative;
+}
+
+#footer .span1{
+  height: 130px;
+  background-image:url('logos.png');
+  background-position-y: -3465px;
+}
+
+#footer .span1.offset4{
+  margin-left: 380px;
+}
+#footer .span1:nth-of-type(1){
+  background-position-x: -468px;
+}
+#footer .span1:nth-of-type(2){
+  background-position-x: -575px;
+}
+#footer .span1:nth-of-type(3){
+  background-position-x: -677px;
+}
+
+#footer #fig-container{
+  width:110px;
+  height:110px;
+  background-color: #586D12;
+  position:absolute;
+  left:50%;
+  margin-left: -55px;
+  background-image:url('logos.png');
+  background-position-x: 653px;
+  background-position-y: -5px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  margin-top: -55px;
 }
