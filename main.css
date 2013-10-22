@@ -37,30 +37,25 @@
   height:255px;
   margin-top: 60px;
 }
-
 #speisekarte #speisekarte-logo{
   background-image:url('logos.png');
   background-position-x: -110px;
   background-position-y: -310px;
   height:55px;
 }
-
 #speisekarte #circluar-pics{
   margin-top: 5px;
   height:155px;
 }
-
 #speisekarte #circluar-pics .span2{
   width:143px;
   height:inherit;
   background-image:url('logos.png');
   background-position-y: -420px;
 }
-
 #speisekarte #circluar-pics .offset1{
   margin-left:90px;
 }
-
 #speisekarte #circluar-pics .span2:nth-of-type(1){
   background-position-x: -191px;
 }
@@ -76,6 +71,19 @@
 #speisekarte #circluar-pics .span2:nth-of-type(5){
   background-position-x: -859px;
 }
+#speisekarte .rotated-peak{
+  width: 60px;
+  height: 60px;
+  background-color: #586D12;
+  position: absolute;
+  transform:rotate(45deg);
+  -ms-transform:rotate(45deg); /* IE 9 */
+  -webkit-transform:rotate(45deg); /* Safari and Chrome */
+  left: 50%;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
 
 #big-phrase{
   background-color: #FDEFBE;
@@ -88,6 +96,10 @@
   background-position-x: -120px;
   background-position-y: -885px;
 }
+
+
+
+
 
 .menu-headline{
   height:55px;
@@ -280,5 +292,5 @@
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
-  margin-top: -55px;
+  margin-top: -50px;
 }
