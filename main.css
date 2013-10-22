@@ -352,3 +352,11 @@ visibility:hidden;
   border-radius: 999px;
   margin-top: -50px;
 }
+
+#footer #impresum{
+  text-align: center;
+}
+#footer #impresum a{
+  color:white;
+  font-weight: bold;
+}
