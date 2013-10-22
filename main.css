@@ -72,6 +72,44 @@
 #speisekarte #circluar-pics .span2:nth-of-type(5){
   background-position-x: -859px;
 }
+
+#speisekarte #speisekarte-titles{
+  height:35px;
+  position: relative;
+  z-index: 1000;
+}
+
+#speisekarte #speisekarte-titles .span2{
+  width:143px;
+  height: inherit;
+  background-image:url('logos.png');
+  background-position-y: -850px;
+visibility:hidden;
+}
+#speisekarte #speisekarte-titles .span2:nth-of-type(1){
+  background-position-x: -130px;
+}
+
+#speisekarte #speisekarte-titles .span2:nth-of-type(2){
+  background-position-x: -330px;
+}
+
+#speisekarte #speisekarte-titles .span2:nth-of-type(3){
+  background-position-x: -528px;
+}
+
+#speisekarte #speisekarte-titles .span2:nth-of-type(4){
+  background-position-x: -725px;
+}
+
+#speisekarte #speisekarte-titles .span2:nth-of-type(5){
+  background-position-x: -925px;
+}
+
+#speisekarte #speisekarte-titles .offset1{
+  margin-left: 90px;
+}
+
 #speisekarte .rotated-peak{
   width: 0;
   height: 0;
@@ -81,7 +119,18 @@
   position: absolute;
   left: 50%;
   margin-left: -120px;
+  margin-top: -25px;
 }
+
+
+
+
+
+
+
+
+
+
 
 #big-phrase{
   background-color: #FDEFBE;
