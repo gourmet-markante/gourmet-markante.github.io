@@ -52,6 +52,7 @@
   height:inherit;
   background-image:url('logos.png');
   background-position-y: -420px;
+    cursor: pointer;
 }
 #speisekarte #circluar-pics .offset1{
   margin-left:90px;
