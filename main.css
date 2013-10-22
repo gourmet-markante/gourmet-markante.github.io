@@ -2,20 +2,17 @@
   background-color:#586D12;
   height:45px;
 }
-
 #header #menu{
   height:inherit;
   color:white;
   font-size:17px;
 }
-
 #header #menu .row .span2{
   width: 100px;
 }
 #header #menu .row .span2 p{
   margin:12px 0 10px;
 }
-
 #header #fig-container{
   width:110px;
   height:110px;
@@ -32,10 +29,41 @@
   border-radius: 999px;
 }
 
+
+#carousel{
+  height:645px;
+  background-image:url('1.jpg');  
+}
+
+#carousel #first-paragraph{
+  height: 60px;
+  width: 400px;
+  background-color: #586D12;
+  opacity: 0.8;
+  margin-top: 250px;
+  margin-left: 40px;
+  background-image:url('logos.png');
+  background-position-x: 790px;
+  background-position-y: -140px;
+}
+
+#carousel #second-paragraph{
+  height: 60px;
+  width: 750px;
+  background-color: #586D12;
+  margin-left: 200px;
+  opacity: 0.8;
+  background-image:url('logos.png');
+  background-position-x: 975px;
+  background-position-y: -226px;
+}
+
+
+
+
 #speisekarte{
   background-color:#586D12;
   height:255px;
-  margin-top: 60px;
 }
 #speisekarte #speisekarte-logo{
   background-image:url('logos.png');
