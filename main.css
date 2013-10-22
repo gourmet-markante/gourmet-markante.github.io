@@ -1,0 +1,244 @@
+#header{
+  background-color:#586D12;
+  height:45px;
+}
+
+#header #menu{
+  height:inherit;
+  color:white;
+  font-size:17px;
+}
+
+#header #menu .row .span2{
+  width: 100px;
+}
+#header #menu .row .span2 p{
+  margin:12px 0 10px;
+}
+
+#header #fig-container{
+  width:110px;
+  height:110px;
+  background-color: #586D12;
+  position:absolute;
+  left:50%;
+  margin-left: -55px;
+  top:-15px;
+  background-image:url('logos.png');
+  background-position-x: 653px;
+  background-position-y: -5px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+}
+
+#speisekarte{
+  background-color:#586D12;
+  height:255px;
+  margin-top: 60px;
+}
+
+#speisekarte #speisekarte-logo{
+  background-image:url('logos.png');
+  background-position-x: -110px;
+  background-position-y: -310px;
+  height:55px;
+}
+
+#speisekarte #circluar-pics{
+  margin-top: 5px;
+  height:155px;
+}
+
+#speisekarte #circluar-pics .span2{
+  width:143px;
+  height:inherit;
+  background-image:url('logos.png');
+  background-position-y: -420px;
+}
+
+#speisekarte #circluar-pics .offset1{
+  margin-left:90px;
+}
+
+#speisekarte #circluar-pics .span2:nth-of-type(1){
+  background-position-x: -191px;
+}
+#speisekarte #circluar-pics .span2:nth-of-type(2){
+  background-position-x: -358px;
+}
+#speisekarte #circluar-pics .span2:nth-of-type(3){
+  background-position-x: -526px;
+}
+#speisekarte #circluar-pics .span2:nth-of-type(4){
+  background-position-x: -689px;
+}
+#speisekarte #circluar-pics .span2:nth-of-type(5){
+  background-position-x: -859px;
+}
+
+#big-phrase{
+  background-color: #FDEFBE;
+  height:320px;
+}
+#big-phrase #big-phrase-logo{
+  height:inherit;
+  width:960px;
+  background-image:url('logos.png');
+  background-position-x: -120px;
+  background-position-y: -885px;
+}
+
+.menu-headline{
+  height:55px;
+}
+
+.menu-headline-logo{
+  height:inherit;
+  position: relative;
+  width:200px;
+  left:50%;
+  margin-left: -100px;
+  background-image:url('logos.png');
+  background-position-y: -841px;
+}
+
+#canape-headline{
+  background-color: #E3D8AB;
+}
+
+#canape-headline-logo{
+  background-position-x: -98px;
+}
+
+#vorspeise-headline{
+  background-color: #709F51;
+}
+
+#vorspeise-headline-logo{
+  background-position-x: -296px;
+}
+
+#hauptgang-headline{
+  background-color: #C84C4C;
+}
+
+#hauptgang-headline-logo{
+  background-position-x: -496px;
+}
+
+#dessert-headline{
+  background-color: #CAA94C;
+}
+
+#dessert-headline-logo{
+  background-position-x: -692px;
+}
+
+#extras-headline{
+  background-color: #AD7D4D;
+}
+
+#extras-headline-logo{
+  background-position-x: -894px;
+}
+
+
+
+
+#big-phrase-bottom{
+  background-color: #FDEFBE;
+  height:278px;
+}
+#big-phrase-bottom #big-phrase-bottom-logo{
+  height:160px;
+  width:960px;
+  margin-top: 55px;
+  background-image:url('logos.png');
+  background-position-x: -120px;
+  background-position-y: -2585px;
+}
+
+
+
+
+
+#menu-download{
+  height:165px;
+  background-color: #586D12;
+}
+#menu-download .container{
+  height: inherit;
+}
+#menu-download .container .row{
+  height: inherit;
+}
+#menu-download-headline{
+  margin-top: 38px;
+  height:100px;
+  background-image:url('logos.png');
+  background-position-x: -235px;
+  background-position-y: -2732px;
+}
+#menu-download-icon{
+  height:inherit;
+  background-image:url('logos.png');
+  background-position-x: -500px;
+  background-position-y: -2835px;
+}
+
+
+
+
+#kontakt{
+  height:615px;
+}
+
+#kontakt .row{
+  height:90px;
+  border:1px solid black;
+}
+#kontakt #kontakt-headline{
+  height:inherit;
+  background-image:url('logos.png');
+  background-position-x: -282px;
+  background-position-y: -3005px;
+}
+
+#kontakt .logos{
+  height: inherit;
+  background-image:url('logos.png');
+  background-position-x: -502px;
+}
+
+#kontakt .infos{
+  height: inherit;
+
+}
+#kontakt .infos p{
+  padding-top: 32px;
+}
+
+#kontakt .infos p{
+  color: #586D12;
+}
+#kontakt #email-logo{
+  background-position-y: -3093px;
+}
+#kontakt #telephone-logo{
+  background-position-y: -3193px;
+}
+#kontakt #mobile-headline{
+  background-position-y: -3293px;
+}
+#kontakt #address-headline{
+  background-position-y: -3393px;
+}
+#kontakt #kontakt-advice-headline{
+ text-align: center; 
+}
+#kontakt #kontakt-advice-headline p{
+ color:#586D12;
+ font-size: 26px;
+ padding-top: 20px
+}
