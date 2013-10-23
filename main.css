@@ -1,3 +1,6 @@
+.container-fluid{
+  min-width:960px;
+}
 #header{
   background-color:#586D12;
   height:45px;
@@ -144,7 +147,6 @@
   height:320px;
 }
 #big-phrase #big-phrase-logo{
-  background-color: inherit;
   height:inherit;
   width:960px;
   background-image:url('logos.png');
@@ -436,7 +438,6 @@
   background-color: #586D12; 
   position: relative;
 }
-
 #footer .span1{
   height: 130px;
   background-image:url('logos.png');
