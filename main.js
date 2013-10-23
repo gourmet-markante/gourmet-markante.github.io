@@ -1,20 +1,19 @@
 $(document).ready(function(){
 
   $('#speisekarte #circluar-pics .span2').on('mouseover',function(){
-    $('#speisekarte #circluar-pics .span2').css('background-position-x', '');
-    $('#speisekarte #circluar-pics .span2').css('background-position-y', '');
+    $('#speisekarte #circluar-pics .span2').css('background-position', '');
 
-    $(this).css('background-position-y', '-629px')
-    $(this).css('background-position-x', '-=3')
-
+    var position = $(this).css('background-position').split(' ')
+    var positionX = parseInt(position[0])
+    positionX -= 3;
+    $(this).css('background-position', positionX+ 'px -629px')
     var order_number = $(this).index('#speisekarte #circluar-pics .span2') + 1
     $('#speisekarte #speisekarte-titles .span2').css('visibility', 'hidden');
     $('#speisekarte #speisekarte-titles .span2:nth-of-type('+order_number+')').css('visibility', 'visible');
   });
 
   $('#speisekarte #circluar-pics').on('mouseleave', function(){
-    $('#speisekarte #circluar-pics .span2').css('background-position-x', '');
-    $('#speisekarte #circluar-pics .span2').css('background-position-y', '');
+    $('#speisekarte #circluar-pics .span2').css('background-position', '');
     $('#speisekarte #speisekarte-titles .span2').css('visibility', 'hidden');
   });
 
