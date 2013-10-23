@@ -17,6 +17,7 @@
   margin:12px 0 10px;
 }
 #header #fig-container{
+  z-index: 20;
   width:110px;
   height:110px;
   background-color: #586D12;
@@ -37,7 +38,13 @@
   background-image:url('1.jpg');  
 }
 
-#carousel #first-paragraph{
+#carousel-navigation{
+  z-index: 20;
+  position: absolute;
+  left:50%;
+  margin-left: -470px;
+}
+#carousel-navigation #first-paragraph{
   height: 60px;
   width: 400px;
   background-color: #586D12;
@@ -48,7 +55,7 @@
   background-position: 790px -140px;
 }
 
-#carousel #second-paragraph{
+#carousel-navigation #second-paragraph{
   height: 60px;
   width: 750px;
   background-color: #586D12;

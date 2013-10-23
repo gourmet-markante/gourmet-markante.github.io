@@ -18,4 +18,12 @@ $(document).ready(function(){
   });
 
 
+
+  $('#carousel-navigation #first-paragraph').on('click', function(){
+    $("#carousel").fadeOut("slow", 0, function(){
+      $("#carousel").fadeIn("slow")
+    })
+  })
+
+
 });
