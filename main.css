@@ -22,8 +22,7 @@
   margin-left: -55px;
   top:-15px;
   background-image:url('logos.png');
-  background-position-x: 653px;
-  background-position-y: -5px;
+  background-position: 653px -5px;
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
@@ -43,8 +42,7 @@
   margin-top: 250px;
   margin-left: 40px;
   background-image:url('logos.png');
-  background-position-x: 790px;
-  background-position-y: -140px;
+  background-position: 790px -140px;
 }
 
 #carousel #second-paragraph{
@@ -54,8 +52,7 @@
   margin-left: 200px;
   opacity: 0.8;
   background-image:url('logos.png');
-  background-position-x: 975px;
-  background-position-y: -226px;
+  background-position: 975px -226px;
 }
 
 
@@ -67,8 +64,7 @@
 }
 #speisekarte #speisekarte-logo{
   background-image:url('logos.png');
-  background-position-x: -110px;
-  background-position-y: -310px;
+  background-position: -110px -310px;
   height:55px;
 }
 #speisekarte #circluar-pics{
@@ -79,65 +75,55 @@
   width:143px;
   height:inherit;
   background-image:url('logos.png');
-  background-position-y: -420px;
     cursor: pointer;
 }
 #speisekarte #circluar-pics .offset1{
   margin-left:90px;
 }
 #speisekarte #circluar-pics .span2:nth-of-type(1){
-  background-position-x: -191px;
+  background-position: -191px -420px;
 }
 #speisekarte #circluar-pics .span2:nth-of-type(2){
-  background-position-x: -358px;
+  background-position: -358px -420px;
 }
 #speisekarte #circluar-pics .span2:nth-of-type(3){
-  background-position-x: -526px;
+  background-position: -526px -420px;
 }
 #speisekarte #circluar-pics .span2:nth-of-type(4){
-  background-position-x: -689px;
+  background-position: -689px -420px;
 }
 #speisekarte #circluar-pics .span2:nth-of-type(5){
-  background-position-x: -859px;
+  background-position: -859px -420px;
 }
-
 #speisekarte #speisekarte-titles{
   height:35px;
   position: relative;
   z-index: 1000;
 }
-
 #speisekarte #speisekarte-titles .span2{
   width:143px;
   height: inherit;
   background-image:url('logos.png');
-  background-position-y: -850px;
-visibility:hidden;
+  visibility:hidden;
 }
 #speisekarte #speisekarte-titles .span2:nth-of-type(1){
-  background-position-x: -130px;
+  background-position: -130px -850px;
 }
-
 #speisekarte #speisekarte-titles .span2:nth-of-type(2){
-  background-position-x: -330px;
+  background-position: -330px -850px;
 }
-
 #speisekarte #speisekarte-titles .span2:nth-of-type(3){
-  background-position-x: -528px;
+  background-position: -528px -850px;
 }
-
 #speisekarte #speisekarte-titles .span2:nth-of-type(4){
-  background-position-x: -725px;
+  background-position: -725px -850px;
 }
-
 #speisekarte #speisekarte-titles .span2:nth-of-type(5){
-  background-position-x: -925px;
+  background-position: -925px -850px;
 }
-
 #speisekarte #speisekarte-titles .offset1{
   margin-left: 90px;
 }
-
 #speisekarte .rotated-peak{
   width: 0;
   height: 0;
@@ -153,33 +139,23 @@ visibility:hidden;
 
 
 
-
-
-
-
-
-
-
 #big-phrase{
   background-color: #FDEFBE;
   height:320px;
 }
 #big-phrase #big-phrase-logo{
+  background-color: inherit;
   height:inherit;
   width:960px;
   background-image:url('logos.png');
-  background-position-x: -120px;
-  background-position-y: -885px;
+  background-position: -120px -885px;
 }
-
-
 
 
 
 .menu-headline{
   height:55px;
 }
-
 .menu-headline-logo{
   height:inherit;
   position: relative;
@@ -187,47 +163,36 @@ visibility:hidden;
   left:50%;
   margin-left: -100px;
   background-image:url('logos.png');
-  background-position-y: -841px;
 }
-
 #canape-headline{
   background-color: #E3D8AB;
 }
-
 #canape-headline-logo{
-  background-position-x: -98px;
+  background-position: -98px -841px;
 }
-
 #vorspeise-headline{
   background-color: #709F51;
 }
-
 #vorspeise-headline-logo{
-  background-position-x: -296px;
+  background-position: -296px -841px;
 }
-
 #hauptgang-headline{
   background-color: #C84C4C;
 }
-
 #hauptgang-headline-logo{
-  background-position-x: -496px;
+  background-position: -496px -841px;
 }
-
 #dessert-headline{
   background-color: #CAA94C;
 }
-
 #dessert-headline-logo{
-  background-position-x: -692px;
+  background-position: -692px -841px;
 }
-
 #extras-headline{
   background-color: #AD7D4D;
 }
-
 #extras-headline-logo{
-  background-position-x: -894px;
+  background-position: -894px -841px;
 }
 
 
@@ -242,8 +207,7 @@ visibility:hidden;
   width:960px;
   margin-top: 55px;
   background-image:url('logos.png');
-  background-position-x: -120px;
-  background-position-y: -2585px;
+  background-position: -120px -2585px;
 }
 
 
@@ -264,14 +228,12 @@ visibility:hidden;
   margin-top: 38px;
   height:100px;
   background-image:url('logos.png');
-  background-position-x: -235px;
-  background-position-y: -2732px;
+  background-position: -235px -2732px;
 }
 #menu-download-icon{
   height:inherit;
   background-image:url('logos.png');
-  background-position-x: -500px;
-  background-position-y: -2835px;
+  background-position: -500px -2835px;
 }
 
 #menu-download .rotated-peak{
@@ -298,14 +260,12 @@ visibility:hidden;
 #kontakt #kontakt-headline{
   height:inherit;
   background-image:url('logos.png');
-  background-position-x: -282px;
-  background-position-y: -3005px;
+  background-position: -282px -3005px;
 }
 
 #kontakt .logos{
   height: inherit;
   background-image:url('logos.png');
-  background-position-x: -502px;
 }
 
 #kontakt .infos{
@@ -320,16 +280,16 @@ visibility:hidden;
   color: #586D12;
 }
 #kontakt #email-logo{
-  background-position-y: -3093px;
+  background-position:-502px  -3093px;
 }
 #kontakt #telephone-logo{
-  background-position-y: -3193px;
+  background-position:-502px  -3193px;
 }
 #kontakt #mobile-headline{
-  background-position-y: -3293px;
+  background-position:-502px  -3293px;
 }
 #kontakt #address-headline{
-  background-position-y: -3393px;
+  background-position:-502px  -3393px;
 }
 #kontakt #kontakt-advice-headline{
  text-align: center; 
@@ -349,20 +309,19 @@ visibility:hidden;
 #footer .span1{
   height: 130px;
   background-image:url('logos.png');
-  background-position-y: -3465px;
 }
 
 #footer .span1.offset4{
   margin-left: 380px;
 }
 #footer .span1:nth-of-type(1){
-  background-position-x: -468px;
+  background-position: -468px -3465px;
 }
 #footer .span1:nth-of-type(2){
-  background-position-x: -575px;
+  background-position: -575px -3465px;
 }
 #footer .span1:nth-of-type(3){
-  background-position-x: -677px;
+  background-position: -677px -3465px;
 }
 
 #footer #fig-container{
@@ -373,8 +332,7 @@ visibility:hidden;
   left:50%;
   margin-left: -55px;
   background-image:url('logos.png');
-  background-position-x: 653px;
-  background-position-y: -5px;
+  background-position: 653px -5px;
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
