@@ -5,8 +5,8 @@ $(document).ready(function(){
 
     var position = $(this).css('background-position').split(' ')
     var positionX = parseInt(position[0])
-    positionX -= 3;
-    $(this).css('background-position', positionX+ 'px -629px')
+    positionX -= 0;
+    $(this).css('background-position', positionX+ 'px -489px')
     var order_number = $(this).index('#speisekarte #circluar-pics .span2') + 1
     $('#speisekarte #speisekarte-titles .span2').css('visibility', 'hidden');
     $('#speisekarte #speisekarte-titles .span2:nth-of-type('+order_number+')').css('visibility', 'visible');
