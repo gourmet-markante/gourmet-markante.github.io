@@ -374,6 +374,7 @@
   height:inherit;
   background-image:url('logos.png');
   background-position: -500px -2835px;
+  cursor: pointer;
 }
 
 #menu-download .rotated-peak{
