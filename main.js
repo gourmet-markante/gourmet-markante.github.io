@@ -34,4 +34,14 @@ $(document).ready(function(){
 		   window.location.href = 'gm-menu.pdf';
 	});
 
+
+/////////////
+//NAVIGATION CIRCULAR PICS
+/////////////
+
+        $('#speisekarte #circluar-pics div').on('click', function(){
+          idOfHeadline = $(this).attr('id').split('-')[0] + "-headline"
+          // alert($('#'+idOfHeadline).offset().top)
+          $('body').animate({ scrollTop: $('#'+idOfHeadline).offset().top });
+        })
 });
