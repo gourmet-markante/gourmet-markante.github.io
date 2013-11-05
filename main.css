@@ -34,8 +34,14 @@
 
 
 #carousel{
-  height:645px;
-  background-image:url('carousel0.png');  
+  height:595px;
+  background-image:url('carusell0.png');  
+  max-width: 1400px;
+  min-width:960px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #carousel-navigation{
@@ -49,7 +55,7 @@
   width: 400px;
   background-color: #586D12;
   opacity: 0.8;
-  margin-top: 250px;
+  margin-top: 230px;
   margin-left: 40px;
   background-image:url('logos.png');
   background-position: -34px -89px;

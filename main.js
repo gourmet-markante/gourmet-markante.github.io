@@ -28,8 +28,8 @@ var carouselCounter = 0;
 setInterval(function(){
     $("#carousel").fadeOut("slow", 0, function(){
       carouselCounter += 1;
-      carouselCounter = (carouselCounter % 3);
-      $('#carousel').css('background-image', 'url(carousel'+carouselCounter +'.png)');
+      carouselCounter = (carouselCounter % 4);
+      $('#carousel').css('background-image', 'url(carusell'+carouselCounter +'.png)');
       $("#carousel").fadeIn("slow")
     })
   },7000)
