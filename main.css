@@ -209,17 +209,39 @@ margin-top:10px;
   height:265px;
   width:960px;
 }
+.menu-description.container p, .menu-description.container li{
+  color:#586D12;
+}
 #canape-description-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
   background-position: -12px -685px;
 }
 #canape-description-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
+}
+.row-fluidclass.menu-description:nth-of-type(1){
+  height:30px;
+}
+.row-fluid.menu-description:nth-of-type(1) p{
+  padding-left: 90px;
+  padding-top: 10px;
+}
+
+.row-fluid.menu-description:nth-of-type(2) ul{
+  padding-left: 70px;
+}
+
+.row-fluid.menu-description.menu-left:nth-of-type(1) p{
+  padding-left: 30px;
+}
+
+.row-fluid.menu-description.menu-left:nth-of-type(2) ul{
+  padding-left: 10px;
 }
 
 #vorspeise-description{
@@ -232,12 +254,12 @@ margin-top:10px;
 
 
 #vorspeise-description-1-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
 }
 #vorspeise-description-1-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
@@ -245,25 +267,25 @@ margin-top:10px;
 }
 
 #vorspeise-description-2-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:480px;
   background-image:url('logos.png');
   background-position:  -10px -1209px;
 }
 #vorspeise-description-2-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:476px;
 }
 
 #vorspeise-description-3-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
 }
 #vorspeise-description-3-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
@@ -280,25 +302,25 @@ margin-top:10px;
 }
 
 #hauptgang-description-1-left{
-    display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
   background-position: -10px -1710px;
 }
 #hauptgang-description-1-right{
- display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
 }
 
 #hauptgang-description-2-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
 }
 #hauptgang-description-2-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
@@ -309,14 +331,14 @@ margin-top:10px;
   height:213px;
 }
 #dessert-description-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
   background-position: -511px -963px;
 }
 #dessert-description-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
 }
@@ -325,12 +347,12 @@ margin-top:10px;
   height:400px;
 }
 #extras-description-left{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
 }
 #extras-description-right{
-  display:inline-block;
+  float:left;
   height:inherit;
   width:478px;
   background-image:url('logos.png');
