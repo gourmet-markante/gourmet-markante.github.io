@@ -10,11 +10,11 @@
   color:white;
   font-size:14px;
 }
-#header #menu .row .span2{
-  width: 100px;
+#header #menu .row{
+  margin-top: 13px;
 }
-#header #menu .row .span2 p{
-  margin:12px 0 10px;
+#header #menu .row span{
+  padding-left: 20px;
 }
 #header #fig-container{
   z-index: 20;
