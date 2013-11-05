@@ -5,7 +5,6 @@ $(document).ready(function(){
 
     var position = $(this).css('background-position').split(' ')
     var positionX = parseInt(position[0])
-    positionX -= 0;
     $(this).css('background-position', positionX+ 'px -489px')
     var order_number = $(this).index('#speisekarte #circluar-pics .span2') + 1
     $('#speisekarte #speisekarte-titles .span2').css('visibility', 'hidden');
@@ -17,17 +16,30 @@ $(document).ready(function(){
     $('#speisekarte #speisekarte-titles .span2').css('visibility', 'hidden');
   });
 
+//////CAROUSEL
 
+  // $('#carousel-navigation #first-paragraph').on('click', function(){
+  //   $("#carousel").fadeOut("slow", 0, function(){
+  //     $("#carousel").fadeIn("slow")
+  //   })
+  // })
 
-  $('#carousel-navigation #first-paragraph').on('click', function(){
+var carouselCounter = 0;
+setInterval(function(){
     $("#carousel").fadeOut("slow", 0, function(){
+      carouselCounter += 1;
+      carouselCounter = (carouselCounter % 3);
+      $('#carousel').css('background-image', 'url(carousel'+carouselCounter +'.png)');
       $("#carousel").fadeIn("slow")
     })
-  })
+  },5000)
 
-/////////////
-//DOWNLOAD MENU
-////////////
+
+
+
+
+/////DOWNLOAD MENU
+
 
 	$("#menu-download-icon").on('click', function(e){
 		   e.preventDefault();
@@ -35,9 +47,8 @@ $(document).ready(function(){
 	});
 
 
-/////////////
-//NAVIGATION CIRCULAR PICS
-/////////////
+/////NAVIGATION CIRCULAR PICS
+
 
         $('#speisekarte #circluar-pics div').on('click', function(){
           idOfHeadline = $(this).attr('id').split('-')[0] + "-headline"
