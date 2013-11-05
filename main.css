@@ -209,8 +209,10 @@ margin-top:10px;
   height:265px;
   width:960px;
 }
-.menu-description.container p, .menu-description.container{
+.menu-description.container p, .menu-description.container li, .menu-description.container{
   color:#586D12;
+  font-size:13px;
+  line-height: 18px;
 }
 #canape-description-left{
   float:left;
@@ -224,6 +226,11 @@ margin-top:10px;
   height:inherit;
   width:478px;
 }
+
+#canape-description-right .row-fluid:nth-of-type(1){
+  margin-top: 25px;
+}
+
 .row-fluidclass.menu-description:nth-of-type(1){
   height:30px;
 }
@@ -258,6 +265,10 @@ margin-top:10px;
   height:inherit;
   width:478px;
 }
+
+#vorspeise-description-1-left .row-fluid:nth-of-type(1){
+  margin-top: 15px;
+}
 #vorspeise-description-1-right{
   float:left;
   height:inherit;
@@ -277,6 +288,9 @@ margin-top:10px;
   float:left;
   height:inherit;
   width:476px;
+}
+#vorspeise-description-2-right .row-fluid:nth-of-type(1){
+  margin-top: 50px;
 }
 
 #vorspeise-description-3-left{
@@ -313,12 +327,20 @@ margin-top:10px;
   height:inherit;
   width:478px;
 }
+#hauptgang-description-1-right .row-fluid:nth-of-type(1){
+  margin-top: 25px;
+}
 
 #hauptgang-description-2-left{
   float:left;
   height:inherit;
   width:478px;
 }
+
+#hauptgang-description-2-left .row-fluid:nth-of-type(1){
+  margin-top: 60px;
+}
+
 #hauptgang-description-2-right{
   float:left;
   height:inherit;
@@ -343,6 +365,10 @@ margin-top:10px;
   width:478px;
 }
 
+#dessert-description-right .row-fluid:nth-of-type(1){
+  margin-top: 15px;
+}
+
 #extras-description{
   height:400px;
 }
@@ -351,6 +377,11 @@ margin-top:10px;
   height:inherit;
   width:478px;
 }
+
+#extras-description-left .row-fluid:nth-of-type(1){
+  margin-top: 15px;
+}
+
 #extras-description-right{
   float:left;
   height:inherit;
