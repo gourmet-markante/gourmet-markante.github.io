@@ -544,3 +544,6 @@ margin-top:10px;
   color:white;
   font-weight: bold;
 }
+#footer .container .span1{
+  cursor: pointer;
+}

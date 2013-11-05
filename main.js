@@ -32,7 +32,7 @@ setInterval(function(){
       $('#carousel').css('background-image', 'url(carousel'+carouselCounter +'.png)');
       $("#carousel").fadeIn("slow")
     })
-  },5000)
+  },7000)
 
 
 
@@ -55,4 +55,10 @@ setInterval(function(){
           // alert($('#'+idOfHeadline).offset().top)
           $('body').animate({ scrollTop: $('#'+idOfHeadline).offset().top });
         })
+
+
+/// SOCIAL NETWORKS
+  $('#footer .container .span1:nth-of-type(1)').on('click', function(){
+    window.open("https://www.facebook.com/pages/Gourmet-Markante/626119437402106")
+  });
 });
