@@ -38,6 +38,7 @@
 #carousel{
   height:595px;
   background-image:url('carusell0.png');  
+  background-position:center; 
   max-width: 1400px;
   min-width:960px;
   position: relative;
