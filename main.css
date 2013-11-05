@@ -14,7 +14,8 @@
   margin-top: 13px;
 }
 #header #menu .row span{
-  padding-left: 20px;
+  margin-left: 20px;
+  cursor:pointer;
 }
 #header #fig-container{
   z-index: 20;
@@ -551,6 +552,6 @@ margin-top:10px;
   color:white;
   font-weight: bold;
 }
-#footer .container .span1{
+#footer .container .span1:nth-of-type(1){
   cursor: pointer;
 }

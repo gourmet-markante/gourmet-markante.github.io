@@ -35,9 +35,6 @@ setInterval(function(){
   },7000)
 
 
-
-
-
 /////DOWNLOAD MENU
 
 
@@ -55,6 +52,22 @@ setInterval(function(){
           // alert($('#'+idOfHeadline).offset().top)
           $('body').animate({ scrollTop: $('#'+idOfHeadline).offset().top });
         })
+
+///HEADER NAVIGATION
+
+$('#header #menu span').on('click', function(){
+  var navScrollTo;
+  if ($(this).text() == "Speisekarte"){
+    navScrollTo = "speisekarte"
+  }else if($(this).text() == "Angebote"){
+    navScrollTo = "menu-download"
+  }else{
+    navScrollTo = "kontakt"
+  }
+  $('body').animate({ scrollTop: $('#'+navScrollTo).offset().top });
+});
+
+
 
 
 /// SOCIAL NETWORKS
